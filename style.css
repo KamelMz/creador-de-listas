@@ -1,0 +1,180 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  .contenedor {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    
+  }
+  
+  img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+  }
+  
+  .light-theme {
+    background-color: #f3f4f6;
+  }
+  
+  .dark-theme {
+    background-color: #124338;
+    color: #fff;
+  }
+  
+  .switch-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .material-icons {
+    
+  }
+
+  .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .icon-luna {
+    background-image: url("luna.png");
+  }
+  
+  .icon-sol {
+    background-image: url("sol.png");
+  }
+  
+  .dark-theme #iconSol {
+    display: none;
+  }
+  
+  .light-theme #iconLuna {
+    display: none;
+  }
+  
+  
+  .logo {
+    background-image: url("logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  
+  #contenedor {
+    width: 70%;
+    padding: 20px;
+    background-color: silver;
+    opacity: 0.9;
+    border-radius: 10px;
+  }
+  
+  #caja {
+    background-color: silver;
+    opacity: 0.9;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  #caja2 {
+    background-color: #e8e8e8;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  #titulo {
+    color: #fff;
+  }
+  
+  h2 {
+    color: #2d2d2d;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid black; /* Agrega un contorno negro */
+    background-color: #777;
+    color: #fff;
+  }
+  
+  #boton {
+    text-align: center;
+  }
+  
+  #clic {
+    background-color: #e8e8e8;
+    color: #444;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  #clic:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+
+  #lista {
+    font-size: 16px;
+    color: #444;
+  }
+  
+  .dark-theme #caja,
+  .dark-theme h2 {
+    color: #fff;
+  }
+  
+  .dark-theme input[type="text"],
+  .dark-theme input[type="password"] {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .dark-theme #lista {
+    color: #fff;
+  }
+  
+  .dark-theme #caja2 {
+    background-color: #333;
+    color: #fff;
+  }
+      
